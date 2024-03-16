@@ -12,7 +12,7 @@ btn.onclick = function(){
         //sible
         let target = document.createElement('img');
         target.id="target";
-        target.src='uber.png'
+        target.src='image/header.png'
         container.appendChild(target);
         target.style.top = Math.random() * (500 - target.offsetHeight)+ 'px'; //offsetHeight permet au target de pas dépasser container
         target.style.left = Math.random() * (600- target.offsetWidth) + 'px';
